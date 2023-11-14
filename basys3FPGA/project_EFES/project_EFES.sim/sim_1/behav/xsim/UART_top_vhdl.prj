@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../7_segments_ctrl.vhd" \
+"../../../../../UART_RX.vhd" \
+"../../../../../UART_top.vhd" \
+
+# Do not sort compile order
+nosort

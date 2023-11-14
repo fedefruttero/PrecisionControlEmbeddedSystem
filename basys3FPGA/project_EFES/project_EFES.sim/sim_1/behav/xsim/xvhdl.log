@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fede/efes_finalProj/basys3_FPGA/7_segments_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DisplayController'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fede/efes_finalProj/basys3_FPGA/UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fede/efes_finalProj/basys3_FPGA/UART_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_top'
