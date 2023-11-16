@@ -13,16 +13,16 @@
   <File Type="ROUTE-DRC-RPX" Name="UART_top_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="UART_top_methodology_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="UART_top_methodology_drc_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="UART_top_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="UART_top_postroute_physopt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="UART_top_physopt.dcp"/>
   <File Type="PLACE-IO" Name="UART_top_io_placed.rpt"/>
   <File Type="OPT-DRC" Name="UART_top_drc_opted.rpt"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="UART_top.ltx"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="UART_top_postroute_physopt_bb.dcp"/>
   <File Type="BITSTR-SYSDEF" Name="UART_top.sysdef"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="UART_top_postroute_physopt.dcp"/>
   <File Type="BITSTR-MMI" Name="UART_top.mmi"/>
   <File Type="BITSTR-BMM" Name="UART_top_bd.bmm"/>
+  <File Type="PHYSOPT-DCP" Name="UART_top_physopt.dcp"/>
   <File Type="PLACE-UTIL-PB" Name="UART_top_utilization_placed.pb"/>
   <File Type="BG-BGN" Name="UART_top.bgn"/>
   <File Type="OPT-DCP" Name="UART_top_opt.dcp"/>
@@ -41,10 +41,10 @@
   <File Type="PLACE-DCP" Name="UART_top_placed.dcp"/>
   <File Type="BITSTR-MSK" Name="UART_top.msk"/>
   <File Type="PWROPT-DCP" Name="UART_top_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="UART_top_incremental_reuse_pre_placed.rpt"/>
   <File Type="BITSTR-RBT" Name="UART_top.rbt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="UART_top_postplace_pwropt.dcp"/>
   <File Type="BITSTR-NKY" Name="UART_top.nky"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="UART_top_incremental_reuse_pre_placed.rpt"/>
   <File Type="ROUTE-DRC" Name="UART_top_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="UART_top_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="UART_top_power_routed.rpt"/>

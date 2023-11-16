@@ -14,3 +14,27 @@ start_gui
 open_project /home/fede/efes_finalProj/basys3_FPGA/UART_efes/UART_efes.xpr
 update_compile_order -fileset sources_1
 save_project_as project_EFES /home/fede/finalProject_EFES/basys3FPGA/project_EFES -force
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {/home/fede/finalProject_EFES/basys3FPGA/project_EFES/project_EFES.runs/impl_1/UART_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/fede/finalProject_EFES/basys3FPGA/project_EFES/project_EFES.runs/impl_1/UART_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {/home/fede/finalProject_EFES/basys3FPGA/project_EFES/project_EFES.runs/impl_1/UART_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/fede/finalProject_EFES/basys3FPGA/project_EFES/project_EFES.runs/impl_1/UART_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

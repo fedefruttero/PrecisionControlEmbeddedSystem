@@ -7,7 +7,6 @@
 -- and no parity bit.  When receive is complete o_rx_dv will be
 -- driven high for one clock cycle.
 
--- Set Generic g_CLKS_PER_BIT as follows:
 -- g_CLKS_PER_BIT = (Frequency of i_Clk)/(Frequency of UART)
 -- For us: 100 MHz Clock, 9600 baud UART
 -- (100000000)/(9600) = 10416
