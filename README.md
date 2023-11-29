@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repository contains the code and documentation for an embedded systems project developed as part of the "Electronics for Embedded Systems" course. The project involves interfacing an STM32 microcontroller with an FPGA via UART communication. The main functionalities include temperature sensing, PWM control of a DC motor, and real-time data transmission.
+This repository contains the code and documentation for an embedded systems project developed as part of the "Electronics for Embedded Systems" course. The project involves interfacing an STM32 microcontroller with an FPGA and a personal computer via UART communication. The main functionalities include temperature sensing, PWM control of a DC motor, and real-time data transmission.
 
 ## Components
 
 - **STM32 Microcontroller Code**: The firmware for the STM32 microcontroller is responsible for temperature sensing through an ADC, PWM signal generation for motor control, and UART communication with the FPGA.
 
-- **FPGA VHDL Code**: The VHDL code is implemented on a Basys3 FPGA, receiving temperature data from the STM32 microcontroller and controlling the motor speed based on PWM signals.
+- **FPGA VHDL Code**: The VHDL code is implemented on a Basys3 FPGA, receiving temperature data from the STM32 microcontroller and converting the temperature binary value to BCD for then being displayed on a series of 7-segment displays.
 
 - **UART Communication**: The project utilizes UART for communication between the microcontroller and FPGA, enabling real-time data exchange.
 
